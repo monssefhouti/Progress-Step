@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project2 - Progress Steps</title>
+    <link rel="stylesheet" href="assets/css/progress.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">
+          <span class="circle__step">1</span>
+          <span class="circle__step_info">Personal information</span>
+        </div>
+
+        <div class="circle">
+          <span class="circle__step">2</span>
+          <span class="circle__step_info">Education</span>
+        </div>
+
+        <div class="circle">
+          <span class="circle__step">3</span>
+          <span class="circle__step_info">Experience</span>
+        </div>
+
+        <div class="circle">
+          <span class="circle__step">4</span>
+          <span class="circle__step_info">Documents</span>
+        </div>
+      </div>
+      <button class="btn btn-prev" disabled>Prev</button>
+      <button class="btn btn-next">next</button>
+    </div>
+    <div class="footer">
+      <div class="copyright">
+        <div class="copyright__text">
+          <span>Made with</span>
+          <svg>
+            <use xlink:href="assets/svg.svg#icon-heart"></use>
+          </svg>
+          <span> by <a href="https://github.com/monssefhouti?tab=repositories">Monssef Houti</a> All Rights Reserved. </span>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/progress.js"></script>
+  </body>
+</html>
